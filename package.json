@@ -1,0 +1,27 @@
+{
+  "name": "project-weather-app",
+  "version": "1.0.0",
+  "description": "A repository for the weather app project from the Odin Project's advanced JavaScript course.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalamanderCtesiphon/Project-Weather-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SalamanderCtesiphon/Project-Weather-App/issues"
+  },
+  "homepage": "https://github.com/SalamanderCtesiphon/Project-Weather-App#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
