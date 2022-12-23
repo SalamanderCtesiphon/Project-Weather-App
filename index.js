@@ -7,6 +7,14 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=31.997346&lon=-102.07
         return response.json();
     })
     .then(function(response) {
-        console.log(response.main.temp);
-        weather.textContent = response.main.temp + '°F';
+        weather.textContent = "Current Midland Teperature: " + response.main.temp + '°F';
     });
+
+
+
+const city = document.getElementById('city');
+const submit = document.getElementById('submit');
+
+
+
+
