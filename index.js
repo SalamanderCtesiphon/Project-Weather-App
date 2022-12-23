@@ -6,6 +6,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=31.997346&lon=-102.07
     .then(function(response) {
         return response.json();
     })
-    .then(function(temp) {
-        console.log(temp);
+    .then(function(response) {
+        console.log(response.main.temp);
+        weather.textContent = response.main.temp + '°F';
     });
